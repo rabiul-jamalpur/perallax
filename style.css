@@ -1,0 +1,123 @@
+/*
+  Theme Name: Name :
+  Author: Rabiul Islam
+  Support: 
+  Description: 
+  Version: 1.0
+*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html,
+body {
+    height: 100%;
+}
+
+.floatleft {
+    float: left
+}
+
+.floatright {
+    float: right
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0px
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 0px
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px
+}
+
+a:focus {
+    outline: 0px solid
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.fix {
+    overflow: hidden
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 0px;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ec4445;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0 none;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+
+.clear {
+    clear: both
+}
+
+body {}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.parallax{
+    background-image: url(img/mountain.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+span{
+    background: rgb(206, 238, 25);
+}
+.instuction{
+    background-color: rgb(16, 199, 86);
+}
